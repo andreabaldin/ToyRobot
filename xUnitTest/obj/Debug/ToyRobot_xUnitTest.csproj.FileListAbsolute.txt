@@ -1,0 +1,17 @@
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.abstractions.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.execution.desktop.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.runner.utility.desktop.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\ToyRobot_xUnitTest.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\ToyRobot_xUnitTest.pdb
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.assert.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.core.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.assert.pdb
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.assert.xml
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.core.pdb
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\xunit.core.xml
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\obj\Debug\ToyRobot_xUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\obj\Debug\ToyRobot_xUnitTest.dll
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\obj\Debug\ToyRobot_xUnitTest.pdb
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\ToyRobot.exe
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot_xUnitTest\bin\Debug\ToyRobot.pdb

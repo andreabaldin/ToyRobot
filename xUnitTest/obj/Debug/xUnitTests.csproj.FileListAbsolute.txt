@@ -1,0 +1,17 @@
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.runner.utility.desktop.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.abstractions.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.execution.desktop.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\ToyRobot_xUnitTest.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\ToyRobot_xUnitTest.pdb
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\ToyRobot.exe
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.assert.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.core.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\ToyRobot.pdb
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.assert.pdb
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.assert.xml
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.core.pdb
+C:\Projects\_TESTS\ToyRobot\xUnitTest\bin\Debug\xunit.core.xml
+C:\Projects\_TESTS\ToyRobot\xUnitTest\obj\Debug\xUnitTests.csprojResolveAssemblyReference.cache
+C:\Projects\_TESTS\ToyRobot\xUnitTest\obj\Debug\ToyRobot_xUnitTest.dll
+C:\Projects\_TESTS\ToyRobot\xUnitTest\obj\Debug\ToyRobot_xUnitTest.pdb

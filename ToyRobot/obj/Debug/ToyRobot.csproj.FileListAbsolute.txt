@@ -1,0 +1,16 @@
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe.config
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot\bin\Debug\ToyRobot.pdb
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot\obj\Debug\ToyRobot.exe
+C:\Users\aBaldin\OneDrive\Projects\_ToyRobot\ToyRobot\obj\Debug\ToyRobot.pdb
+C:\Users\aBaldin\OneDrive\Projects\ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe.config
+C:\Users\aBaldin\OneDrive\Projects\ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe
+C:\Users\aBaldin\OneDrive\Projects\ToyRobot\ToyRobot\bin\Debug\ToyRobot.pdb
+C:\Users\aBaldin\OneDrive\Projects\ToyRobot\ToyRobot\obj\Debug\ToyRobot.exe
+C:\Users\aBaldin\OneDrive\Projects\ToyRobot\ToyRobot\obj\Debug\ToyRobot.pdb
+C:\Projects\_TESTS\ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe.config
+C:\Projects\_TESTS\ToyRobot\ToyRobot\obj\Debug\ToyRobot.exe
+C:\Projects\_TESTS\ToyRobot\ToyRobot\obj\Debug\ToyRobot.pdb
+C:\Projects\_TESTS\ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe
+C:\Projects\_TESTS\ToyRobot\ToyRobot\bin\Debug\ToyRobot.pdb
+C:\Projects\_TESTS\ToyRobot\ToyRobot\obj\Debug\ToyRobot.csprojResolveAssemblyReference.cache
