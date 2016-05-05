@@ -1,5 +1,5 @@
 ﻿/*
- * ToyRobot - by Andrea Baldin - 04/05/2016 
+ * ToyRobot - by Andrea Baldin - 05/05/2016 
  */
 
 using System;
@@ -24,11 +24,11 @@ namespace ToyRobot
             // ... Defaults setting (application universe)
             NumRows = 5;
             NumCols = 5;
-            TestMode = true;
+            TestMode = false;
             string path = Directory.GetCurrentDirectory();
             string filename = "\\ToyRobot_Status.txt";
 
-            Console.WriteLine("ToyRobot 5X5 - 04/05/2016 by ab");
+            Console.WriteLine(string.Format("ToyRobot {0}rows x {1}cols table - 05/05/2016 by ab", NumRows, NumCols));
 
             Robot robot = new Robot();
             if (GetCurrentRobotPosition(path, filename, ref robot))
@@ -36,12 +36,11 @@ namespace ToyRobot
             else
                 Console.WriteLine("  New Status File: " + path + filename);
 
-            // ... CommandLine Arguments
+            // ... CommandLine Arguments analisys
             if (args.Length < 1)
             {
                 InteractiveMode(path + filename, ref robot);
-
-                return 0;
+                return 0;                                                                           // ... %ERRORLEVEL
             }
             else
             {
@@ -49,23 +48,22 @@ namespace ToyRobot
                 if (args.Contains("-h", StringComparer.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("\nHELP");
-                    Console.WriteLine("  ToyRobot.exe                   interactive mode");
-                    Console.WriteLine("  ToyRobot.exe <path+filename>   command file mode");
                     Console.WriteLine("  ToyRobot.exe -h                this help page");
+                    Console.WriteLine("  ToyRobot.exe                   interactive mode");
+                    Console.WriteLine("  ToyRobot.exe <path_filename>   command file mode");
                 }
                 else if (File.Exists(args[1]))
                 {
                     CommandFileMode(path + filename, args[1], ref robot);
-
+                    return 0;                                                                       // ... %ERRORLEVEL
                 }
-
 
                 filename = "";
                 path = "";
                 Environment.CurrentDirectory = (path);
             }
 
-            return 1;
+            return 1;                                                                               // ... %ERRORLEVEL
         }
 
 
@@ -169,13 +167,13 @@ namespace ToyRobot
 
 
         // ... Persist the Current Robot Position on Status File
-        static void SaveCurrentRobotPosition(string statusToyRobotilename, Robot robot)
+        static void SaveCurrentRobotPosition(string statusToyRobotFilename, Robot robot)
         {
 
             // ... Persist the current Robot Position
             try
             {
-                StreamWriter writer = new StreamWriter(statusToyRobotilename);
+                StreamWriter writer = new StreamWriter(statusToyRobotFilename);
                 writer.WriteLine(Detail.X.ToString() + ": " + robot.X.ToString());
                 writer.WriteLine(Detail.Y.ToString() + ": " + robot.Y.ToString());
                 writer.WriteLine(Detail.FACE.ToString() + ": " + robot.Face.ToString());
@@ -186,14 +184,14 @@ namespace ToyRobot
             }
             catch
             {
-                Console.WriteLine("I/O error, file: " + statusToyRobotilename);
+                Console.WriteLine("I/O error, file: " + statusToyRobotFilename);
             }
 
         }
 
 
         // ... Interactive Mode - accept command input from keyboard.  Program terminates at wrong command
-        static void InteractiveMode(string statusToyRobotilename, ref Robot robot)
+        static void InteractiveMode(string statusToyRobotFilename, ref Robot robot)
         {
             Console.WriteLine("  Interactive mode");
 
@@ -207,14 +205,14 @@ namespace ToyRobot
             {
                 string s = Console.ReadLine();
                 flag = ExecuteCommand(s, ref robot);
-                SaveCurrentRobotPosition(statusToyRobotilename, robot);
+                SaveCurrentRobotPosition(statusToyRobotFilename, robot);
             } while (flag);
 
         }
 
 
         // ... Command File Mode, accept a txt file containing commands at each line
-        static void CommandFileMode(string statusToyRobotilename, string commandToyRobotilename, ref Robot robot)
+        static void CommandFileMode(string statusToyRobotFilename, string commandToyRobotilename, ref Robot robot)
         {
             Console.WriteLine("  Command File Mode");
             Console.WriteLine(robot.Report());
@@ -229,7 +227,7 @@ namespace ToyRobot
                     while ((commandString = reader.ReadLine()) != null)
                     {
                         ExecuteCommand(commandString, ref robot);
-                        SaveCurrentRobotPosition(statusToyRobotilename, robot);
+                        SaveCurrentRobotPosition(statusToyRobotFilename, robot);
                     }
                 }
                 catch
