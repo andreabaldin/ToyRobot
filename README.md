@@ -1,15 +1,15 @@
-# ToyRobot Simulator #  
+## ToyRobot Simulator ##
 
 C# console basic OOP programming exercise, including xUnit.Net unit test.
 
 5 units x 5 units table defined as constant values.  Origin 0,0 is at SOUTH-WEST
 
 Supported commands:
-PLACE X,Y,F         Eg. PLACE 0,0,NORTH / PLACE 0,4,EAST / PLACE 1,2,3 (Notice 0=N / 1=E / 2=S / 3=W )
-MOVE
-LEFT
-RIGHT
-REPORT
+* PLACE X,Y,F         Eg. PLACE 0,0,NORTH / PLACE 0,4,EAST / PLACE 1,2,3 (Notice 0=N / 1=E / 2=S / 3=W )
+* MOVE
+* LEFT
+* RIGHT
+* REPORT
 
 Unrecognised command stops the task.
 At start, only PLACE X,Y,F command is accepted.
